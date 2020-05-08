@@ -9,8 +9,8 @@
       "host": "localhost",
       "pathMappings": [
         {
-          "localRoot": "${workspaceFolder}",
-          "remoteRoot": "/usr/src/app/"
+          "localRoot": "${workspaceFolder}/src",
+          "remoteRoot": "/usr/src/app"
         }
       ]
     }

@@ -16,3 +16,7 @@ RUN set -eux \
     && rm -rf /root/.cache/pip
 
 COPY ./src /usr/src/app/
+
+ENV PYTHONPATH=/usr/src/app
+
+EXPOSE 8000
